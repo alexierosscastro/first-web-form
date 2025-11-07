@@ -39,11 +39,21 @@ align-items: center;
     display: flex;
 }
 
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .submit {
-    background-color: #4682b4;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #4682b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-fields {
+  padding-left: 20px;
 }

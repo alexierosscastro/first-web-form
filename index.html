@@ -12,6 +12,7 @@
         <fieldset>
             <br>
             <legend>Insert Your Personal Information</legend>
+            <div class="form-fields">
             <input type="hidden" name="access_key" value="b4fb1a2e-7b20-451c-9850-72441a349efd">
             <label for="name">First Name:</label>
             <input type="text" id="name" name="name" required><br><br>
@@ -22,19 +23,26 @@
             <input type="email" id="email" name="email" required><br><br>
 
             <label for="birthday">Birthday:</label>
-            <input type="date" id="birthday" name="birthday" required><br><br>
-
-            <input class="submit" type="submit" value="Submit">
+            <input type="date" id="birthday" name="birthday" required> </div>
+            <br>
+<br>
+    <div class="h-captcha" data-captcha="true"></div>
+    <br>
+       <div class="button-wrapper">
+  <input class="submit" type="submit" value="Submit">
+</div>
+     <br>
         </fieldset>
         </form>
         <br>
 
-
-     <div class="h-captcha" data-captcha="true"></div>
+    
+ 
 
 </form>
 
 <script src="https://web3forms.com/client/script.js" async defer></script>
+
 
 </body>
 </html>
