@@ -57,3 +57,54 @@ align-items: center;
 .form-fields {
   padding-left: 20px;
 }
+
+form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* For Mobile Devices */
+@media (max-width: 600px) {
+  .form-fields {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* For no Overlap & Stuff*/
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-fields input {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  html, body {
+    padding: 10px;
+    margin: 0;
+  }
+
+  form {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .form-fields {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
